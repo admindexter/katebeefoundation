@@ -1,0 +1,62 @@
+<% title "Videos" %>
+
+<% @videos.each do |video| %>
+<div valign="top" class="<%= cycle('articles_div_odd', 'articles_div_even') %>">
+
+  <span class="articles_div_gap_2">
+  </span><!-- end .articles_div_gap_2 -->
+
+  <span class="articles_div_photo_holder">
+    <div class="articles_div_photo">
+
+    </div><!-- end .articles_div_photo -->
+  </span><!-- end .articles_div_photo_holder -->
+
+  <span class="articles_div_gap_1">
+  </span><!-- end .articles_div_gap_1 -->
+
+  <span class="articles_div_gap_2">
+  </span><!-- end .articles_div_gap_2 -->
+
+  <span class="articles_div_details">
+    <div class="last_title"><%=h truncate(video.title.gsub(/<.*?>/,''), :length => 40) %></div>
+
+    <div class="last_location"><%=h truncate(video.location.gsub(/<.*?>/,''), :length => 40) %></div>
+
+    <div class="last_emphasis"><%=h truncate(video.emphasis.gsub(/<.*?>/,''), :length => 40) %></div>
+
+    <div class="last_description"><%=h truncate(video.information.gsub(/<.*?>/,''), :length => 320) %></div>
+
+    <div class="last_author"><%= video.cameraman %></div>
+
+    <div class="last_date"><%= video.date_of_event %></div>
+
+    <div class="event_manage">
+
+  	  <span><%= link_to 'Show', video %></span>
+
+      <% if admin? %>
+        <span> | </span>
+        <span><%= link_to 'Edit', edit_video_path(video) %></span>
+        <span> | </span>
+        <span><%= link_to 'Destroy', video, :confirm => 'Are you sure?', :method => :delete %></span>
+      <% end %>
+
+    </div><!-- end .event_manage -->
+
+  </span><!-- end .articles_div_details -->
+
+</div><!-- end .articles_div_odd -->
+<% end %>
+
+<div class="pagination">
+  <%= will_paginate @articles %>
+</div><!-- end .pagination -->
+
+
+<% if admin? %>
+  <p class="return_link">
+  	<span><%= link_to 'New video', new_video_path %></span>
+  </p>
+<% end %>
+
