@@ -69,7 +69,7 @@ body {
 }
 
 
-/*----------- Navigation Styles ----------*/
+/* Navigation Styles */
 
 #navigator_holder {
 	width: 						969px;
@@ -135,7 +135,7 @@ body {
 }
 
 
-/*----------- Title Styles ----------*/
+/* Title Styles */
 
 #title_div_holder {
 	width: 						969px;
@@ -169,7 +169,7 @@ body {
 }
 
 
-/*----------- Container Styles ----------*/
+/* Container Styles */
 
 #container {
 	width: 						969px;
@@ -235,7 +235,7 @@ body {
 }
 
 
-/*----------- Footer Styles ----------*/
+/* Footer Styles */
 
 #footer_seperator {
 	clear:						left;
@@ -289,9 +289,9 @@ body {
 }
 
 
-/*----------- VIEW Styles ----------*/
+/* VIEW Styles */
 
-/*----------- View Title Content Gap Styles ----------*/
+/* View Title Content Gap Styles */
 
 #view_title_content_gap_holder {
 	width: 						969px;
@@ -330,7 +330,7 @@ body {
 }
 
 
-/*----------- News Container Styles ----------*/
+/* News Container Styles */
 
 
 #news_container {
@@ -362,7 +362,7 @@ body {
 }
 
 
-/*----------- News Container Span2 Styles ----------*/
+/* News Container Span2 Styles */
 
 
 #news_container_span2_div1 {
@@ -440,7 +440,7 @@ body {
 
 
 
-/*----------- View Container Span2 Styles ----------*/
+/* View Container Span2 Styles */
 
 #view_container_span2_div1 {
 	width: 						681px;
@@ -487,10 +487,10 @@ body {
 }
 
 
-/*----------- CMS Styles ----------*/
+/* CMS Styles */
 
 
-/*------ Flash Styles --------*/
+/* Flash Styles */
 
 #flash_container {
 	width: 						969px;
@@ -529,7 +529,7 @@ body {
 
 
 
-/*------ Articles Controller Styles --------*/
+/* Articles Controller Styles */
 
 .articles_div_odd {
 	clear:				left;
@@ -603,7 +603,7 @@ body {
 
 
 
-/*------ Pagination and Return Link Styles --------*/
+/* Pagination and Return Link Styles */
 .event_manage {
 	font-size:			13px;
 	color: 				#015D53;
@@ -698,7 +698,7 @@ h4 {
 
 
 
-/*------ Error Styles --------*/
+/* Error Styles */
 .fieldWithErrors {
   display: inline;
 }
