@@ -21,6 +21,8 @@ class SiteController < ApplicationController
 
   def about
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+
+    render :layout => 'static'
   end
 
   def services
