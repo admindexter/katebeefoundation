@@ -25,6 +25,30 @@ ActionController::Routing::Routes.draw do |map|
 
   map.contact 'contact', :controller => 'site', :action => 'contact'
 
+  map.vision 'vision', :controller => 'site', :action => 'vision'
+
+  map.view 'view', :controller => 'site', :action => 'view'
+
+  map.targets 'targets', :controller => 'site', :action => 'targets'
+
+  map.structure 'structure', :controller => 'site', :action => 'structure'
+
+  map.portfolio 'portfolio', :controller => 'site', :action => 'portfolio'
+
+  map.strategy 'strategy', :controller => 'site', :action => 'strategy'
+
+  map.partners 'partners', :controller => 'site', :action => 'partners'
+
+  map.objectives 'objectives', :controller => 'site', :action => 'objectives'
+
+  map.mission 'mission', :controller => 'site', :action => 'mission'
+
+  map.link 'links', :controller => 'site', :action => 'links'
+
+  map.funding 'funding', :controller => 'site', :action => 'funding'
+
+  map.activities 'activities', :controller => 'site', :action => 'activities'
+
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
 end

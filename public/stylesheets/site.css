@@ -697,6 +697,71 @@ h4 {
 }
 
 
+/* Index Page Styles */
+#gallery_slides {
+	text-align: 				left;
+	height:					279px;
+	width:						653px;
+	background: url(../images/gallery_slides.jpg);
+}
+
+#latest_articles {
+	text-align: 				left;
+	height:					624px;
+	width:						653px;
+	background: url(../images/latest_articles.jpg);
+}
+
+#view_container_span2_div1_home_content {
+	text-align: 				left;
+	/*height:					600px;*/
+	width:						653px;
+	/*background-color:			#FFFF00;*/
+	margin-left:				20px;
+	margin-bottom:              -20px;
+	margin-top:                 -20px;
+	padding:                    0px 0px 40px 0px;
+}
+
+
+/* Index Page Styles */
+#page_image_title_holder {
+	text-align: 				left;
+	height:					65px;
+	width:						650px;
+	background: url(../images/page_image_title_holder.jpg);
+}
+
+#page_image_holder {
+	text-align: 				left;
+	height:					297px;
+	width:						650px;
+	background: url(../images/page_image_holder.jpg);
+}
+
+#page_image_holder_footer {
+	text-align: 				left;
+	height:					20px;
+	width:						650px;
+	background: url(../images/page_image_holder_footer.jpg);
+}
+
+#contact_holder {
+	text-align: 				left;
+	border-top: thin dotted #999;
+	border-bottom: thin dotted #999;
+	padding-left:			50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contact_holder_heading {
+	font-size:16px;
+	color: #909;
+}
+
+
+
 
 /* Error Styles */
 .fieldWithErrors {
