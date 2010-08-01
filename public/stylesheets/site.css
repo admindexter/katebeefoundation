@@ -726,38 +726,112 @@ h4 {
 
 /* Index Page Styles */
 #page_image_title_holder {
-	text-align: 				left;
-	height:					65px;
-	width:						650px;
-	background: url(../images/page_image_title_holder.jpg);
+	text-align: 				        left;
+	height:					            65px;
+	width:						        650px;
+	background:                         url(../images/page_image_title_holder.jpg);
 }
 
+#page_image_title_holder_about {
+	text-align: 				        left;
+	height:					            65px;
+	width:						        650px;
+	background:                         url(../images/page_image_title_holder_about.jpg);
+}
+
+#page_image_title_holder_activities {
+	text-align: 				        left;
+	height:					            65px;
+	width:						        650px;
+	background:                         url(../images/page_image_title_holder_activities.jpg);
+}
+
+#page_image_title_holder_funding {
+	text-align: 				        left;
+	height:					            65px;
+	width:						        650px;
+	background:                         url(../images/page_image_title_holder_funding.jpg);
+}
+
+
 #page_image_holder {
-	text-align: 				left;
-	height:					297px;
-	width:						650px;
-	background: url(../images/page_image_holder.jpg);
+	text-align: 				        left;
+	height:					            297px;
+	width:						        650px;
+	background:                         url(../images/page_image_holder.jpg);
+}
+
+#page_image_holder_about {
+	text-align: 				        left;
+	height:					            297px;
+	width:						        650px;
+	background:                         url(../images/page_image_holder_about.jpg);
+}
+
+#page_image_holder_activities {
+	text-align: 				        left;
+	height:					            297px;
+	width:						        650px;
+	background:                         url(../images/page_image_holder_activities.jpg);
+}
+
+#page_image_holder_funding {
+	text-align: 				        left;
+	height:					            297px;
+	width:						        650px;
+	background:                         url(../images/page_image_holder_funding.jpg);
 }
 
 #page_image_holder_footer {
-	text-align: 				left;
-	height:					20px;
-	width:						650px;
-	background: url(../images/page_image_holder_footer.jpg);
+	text-align: 				        left;
+	height:					            20px;
+	width:						        650px;
+	background:                         url(../images/page_image_holder_footer.jpg);
 }
 
 #contact_holder {
-	text-align: 				left;
-	border-top: thin dotted #999;
-	border-bottom: thin dotted #999;
-	padding-left:			50px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	text-align: 				        left;
+	border-top:                         thin dotted #999;
+	border-bottom:                      thin dotted #999;
+	padding-left:			            30px;
+	padding-right:			            30px;
+	padding-top:                        20px;
+	padding-bottom:                     20px;
+}
+
+#contact_holder a {
+    text-decoration:                    none;
+    color:                              #227630;
 }
 
 .contact_holder_heading {
-	font-size:16px;
-	color: #909;
+	font-size:                          16px;
+	color:                              #909;
+}
+
+#contact_holder_link {
+	font-size: 					        13px;
+	width:                              400px;
+	height:                             30px;
+    padding-left:                       150px;
+    color:                              #227630;
+}
+
+#contact_holder_link a {
+    text-decoration:                    none;
+    color:                              #227630;
+}
+
+#contact_holder_link_about {
+	font-size: 					        13px;
+	width:                              400px;
+	height:                             30px;
+    padding-left:                       90px;
+}
+
+#contact_holder_link_about a {
+    text-decoration:                    none;
+    color:                              #227630;
 }
 
 

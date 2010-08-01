@@ -1,10 +1,4 @@
 class SiteController < ApplicationController
-
-
-end
-
-
-class SiteController < ApplicationController
   def index
   	@last_article = Article.find(:last)
 
@@ -27,6 +21,8 @@ class SiteController < ApplicationController
 
   def services
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+
+    render :layout => 'static'
   end
 
   def contact
@@ -41,45 +37,47 @@ class SiteController < ApplicationController
 
   def activities
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+
+  	render :layout => 'static'
   end
 
   def funding
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+
+  	render :layout => 'static'
   end
 
   def links
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
-  end
 
-  def mission
-  	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+  	render :layout => 'static'
   end
 
   def objectives
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+
+  	render :layout => 'static'
   end
 
   def partners
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
-  end
 
-  def strategy
-  	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+  	render :layout => 'static'
   end
 
   def structure
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+
+  	render :layout => 'static'
   end
 
   def targets
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+
+  	render :layout => 'static'
   end
 
   def view
-  	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
-  end
-
-  def vision
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
   end
 end
