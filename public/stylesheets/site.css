@@ -941,6 +941,132 @@ h4 {
     color:                              #227630;
 }
 
+/* Flash Dimension */
+#content_for_layout_1 {
+    width:                              920px;
+    height:                             360px;
+	background: 				        url(../images/content_span1.jpg) repeat-y left top;
+
+}
+
+#content_for_layout_1_span {
+    float:                              left;
+	width:                              20px;
+	height:                             316px;
+}
+
+#content_for_layout_1_flash {
+    float:                              left;
+	background: 				        url(../images/flash_dimension.jpg) no-repeat;
+	width:                              576px;
+	height:                             316px;
+}
+
+#content_for_layout_1_buttons {
+    float:                              left;
+    padding-left:                       10px;
+	width:                              304px;
+	height:                             360px;
+}
+
+#index_about_button {
+	background:			 		        url(../images/about_us_button.jpg) no-repeat;
+	height:			 			        90px;
+	width: 						        304px;
+}
+
+#index_about_button a {
+	text-decoration: 			        none;
+	display:					        block;
+	background: 				        url(../images/about_us_button.jpg) no-repeat;
+}
+
+#index_about_button a:visited {
+	text-decoration: 			        none;
+	display:					        block;
+	background: 				        url(../images/about_us_button.jpg) no-repeat;
+}
+
+#index_about_button a:hover {
+	text-decoration: 			        none;
+	display:					        block;
+	background: 				        url(../images/about_us_button_highlight.jpg) no-repeat;
+}
+
+#index_activities_button {
+	background:			 		        url(../images/activities_button.jpg) no-repeat;
+	height:			 			        90px;
+	width: 						        304px;
+}
+
+#index_activities_button a {
+	text-decoration: 			        none;
+	display:					        block;
+	background: 				        url(../images/activities_button.jpg) no-repeat;
+}
+
+#index_activities_button a:visited {
+	text-decoration: 			        none;
+	display:					        block;
+	background: 				        url(../images/activities_button.jpg) no-repeat;
+}
+
+#index_activities_button a:hover {
+	text-decoration: 			        none;
+	display:					        block;
+	background: 				        url(../images/activities_button_highlight.jpg) no-repeat;
+}
+
+#index_strategy_button {
+	background:			 		        url(../images/strategy_button.jpg) no-repeat;
+	height:			 			        90px;
+	width: 						        304px;
+}
+
+#index_strategy_button a {
+	text-decoration: 			        none;
+	display:					        block;
+	background: 				        url(../images/strategy_button.jpg) no-repeat;
+}
+
+#index_strategy_button a:visited {
+	text-decoration: 			        none;
+	display:					        block;
+	background: 				        url(../images/strategy_button.jpg) no-repeat;
+}
+
+#index_strategy_button a:hover {
+	text-decoration: 			        none;
+	display:					        block;
+	background: 				        url(../images/strategy_button_highlight.jpg) no-repeat;
+}
+
+#index_contact_us_button {
+	background:			 		        url(../images/contact_us_button.jpg) no-repeat;
+	height:			 			        90px;
+	width: 						        304px;
+}
+
+#index_contact_us_button a {
+	text-decoration: 			        none;
+	display:					        block;
+	background: 				        url(../images/contact_us_button.jpg) no-repeat;
+}
+
+#index_contact_us_button a:visited {
+	text-decoration: 			        none;
+	display:					        block;
+	background: 				        url(../images/contact_us_button.jpg) no-repeat;
+}
+
+#index_contact_us_button a:hover {
+	text-decoration: 			        none;
+	display:					        block;
+	background: 				        url(../images/contact_us_button_highlight.jpg) no-repeat;
+}
+
+
+
 
 
 
