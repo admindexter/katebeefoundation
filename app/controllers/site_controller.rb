@@ -8,7 +8,11 @@ class SiteController < ApplicationController
 
   	@last_five_gallery = Gallery.find(:all, :limit => 5, :order => "created_at DESC")
 
+  	@last_four_gallery = Gallery.find(:all, :limit => 4, :order => "created_at DESC")
+
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+
+  	@last_two_articles = Article.find(:all, :limit => 2, :order => "created_at DESC")
 
     render :layout => 'home'
   end
@@ -16,11 +20,15 @@ class SiteController < ApplicationController
   def about
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
 
+  	@last_four_gallery = Gallery.find(:all, :limit => 4, :order => "created_at DESC")
+
     render :layout => 'static'
   end
 
   def services
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+
+  	@last_four_gallery = Gallery.find(:all, :limit => 4, :order => "created_at DESC")
 
     render :layout => 'static'
   end
@@ -28,15 +36,21 @@ class SiteController < ApplicationController
   def contact
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
 
+  	@last_four_gallery = Gallery.find(:all, :limit => 4, :order => "created_at DESC")
+
     render :layout => 'static'
   end
 
   def portfolio
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+
+  	@last_four_gallery = Gallery.find(:all, :limit => 4, :order => "created_at DESC")
   end
 
   def activities
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+
+  	@last_four_gallery = Gallery.find(:all, :limit => 4, :order => "created_at DESC")
 
   	render :layout => 'static'
   end
@@ -44,11 +58,15 @@ class SiteController < ApplicationController
   def funding
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
 
+  	@last_four_gallery = Gallery.find(:all, :limit => 4, :order => "created_at DESC")
+
   	render :layout => 'static'
   end
 
   def links
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+
+  	@last_four_gallery = Gallery.find(:all, :limit => 4, :order => "created_at DESC")
 
   	render :layout => 'static'
   end
@@ -56,11 +74,15 @@ class SiteController < ApplicationController
   def objectives
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
 
+  	@last_four_gallery = Gallery.find(:all, :limit => 4, :order => "created_at DESC")
+
   	render :layout => 'static'
   end
 
   def partners
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+
+  	@last_four_gallery = Gallery.find(:all, :limit => 4, :order => "created_at DESC")
 
   	render :layout => 'static'
   end
@@ -68,17 +90,25 @@ class SiteController < ApplicationController
   def structure
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
 
+  	@last_four_gallery = Gallery.find(:all, :limit => 4, :order => "created_at DESC")
+
   	render :layout => 'static'
   end
 
   def targets
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
 
+  	@last_four_gallery = Gallery.find(:all, :limit => 4, :order => "created_at DESC")
+
   	render :layout => 'static'
   end
 
   def view
   	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+
+  	@last_four_gallery = Gallery.find(:all, :limit => 4, :order => "created_at DESC")
+
+  	render :layout => 'static'
   end
 end
 

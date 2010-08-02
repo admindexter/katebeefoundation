@@ -700,16 +700,22 @@ h4 {
 /* Index Page Styles */
 #gallery_slides {
 	text-align: 				left;
-	height:					279px;
+	height:					    279px;
 	width:						653px;
-	background: url(../images/gallery_slides.jpg);
+	background:                 url(../images/gallery_slides.jpg);
+}
+
+#temp_gallery_slides {
+    padding-left:               30px;
+	height:					    200px;
+	width:						653px;
 }
 
 #latest_articles {
 	text-align: 				left;
-	height:					624px;
+	height:					    624px;
 	width:						653px;
-	background: url(../images/latest_articles.jpg);
+	background:                 url(../images/latest_articles.jpg);
 }
 
 #view_container_span2_div1_home_content {
@@ -753,6 +759,50 @@ h4 {
 	background:                         url(../images/page_image_title_holder_funding.jpg);
 }
 
+#page_image_title_holder_links {
+	text-align: 				        left;
+	height:					            65px;
+	width:						        650px;
+	background:                         url(../images/page_image_title_holder_links.jpg);
+}
+
+#page_image_title_holder_targets {
+	text-align: 				        left;
+	height:					            65px;
+	width:						        650px;
+	background:                         url(../images/page_image_title_holder_targets.jpg);
+}
+
+#page_image_title_holder_objectives {
+	text-align: 				        left;
+	height:					            65px;
+	width:						        650px;
+	background:                         url(../images/page_image_title_holder_objectives.jpg);
+}
+
+#page_image_title_holder_articles {
+	text-align: 				        left;
+	height:					            65px;
+	width:						        650px;
+	background:                         url(../images/page_image_title_holder_articles.jpg);
+}
+
+
+
+#page_image_title_holder_gallery {
+	text-align: 				        left;
+	height:					            65px;
+	width:						        650px;
+	background:                         url(../images/page_image_title_holder_gallery.jpg);
+}
+
+#page_image_holder_gallery_footer {
+	text-align: 				        left;
+	height:					            18px;
+	width:						        653px;
+	background:                         url(../images/page_image_holder_gallery_footer.jpg);
+}
+
 
 #page_image_holder {
 	text-align: 				        left;
@@ -789,6 +839,63 @@ h4 {
 	background:                         url(../images/page_image_holder_footer.jpg);
 }
 
+#latest_articles_holder {
+}
+
+.articles_div_space_index {
+    width:              100px;
+    height:             20px;
+    clear:              left;
+}
+
+.articles_div_index_odd {
+	clear:				left;
+	color: 				#C40088;
+	height: 			210px;
+	width: 				610px;
+	padding-left:       20px;
+}
+
+.articles_div_index_even {
+	clear:				left;
+	color: 				#C40088;
+	height: 			210px;
+	width: 				610px;
+	padding-left:       20px;
+}
+
+.pic_pt_gallery {
+    float:              left;
+    width:              140px;
+    height:             200px;
+    border:             1px solid #D7D7D7;
+    text-align:         center;
+	background: 		#FFFFFF url(../images/gallery_background.jpg) repeat-x left bottom;
+}
+
+.pic_pt_gap_gallery {
+    float:                              left;
+    width:                              6px;
+    height:                             160px;
+}
+
+#page_image_title_holder_gallery_holder {
+    padding-left:                       20px;
+    height:                             285px;
+}
+
+#page_image_title_holder_index_holder {
+    height:                             285px;
+}
+
+#page_image_holder_footer_index {
+    clear:                              left;
+	text-align: 				        left;
+	height:					            20px;
+	width:						        650px;
+	background:                         url(../images/page_image_holder_footer.jpg);
+}
+
 #contact_holder {
 	text-align: 				        left;
 	border-top:                         thin dotted #999;
@@ -811,9 +918,9 @@ h4 {
 
 #contact_holder_link {
 	font-size: 					        13px;
-	width:                              400px;
+	width:                              450px;
 	height:                             30px;
-    padding-left:                       150px;
+    padding-left:                       110px;
     color:                              #227630;
 }
 
