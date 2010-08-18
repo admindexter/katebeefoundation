@@ -2,63 +2,35 @@
 
 <p></p>
 
-<% @videos.each do |video| %>
-<div valign="top" class="<%= cycle('articles_div_odd', 'articles_div_even') %>">
+<% for video in @videos %>
 
-  <span class="articles_div_gap_2">
-  </span><!-- end .articles_div_gap_2 -->
+  <span class="pic_pt">
+    <div class="pic_pt_image_holder">
+      <%= link_to image_tag("http://img.youtube.com/vi/#{video.identity}/0.jpg", :width => 130, :height => 98), video %>
+    </div>
 
-  <span class="articles_div_photo_holder">
-    <div class="articles_div_photo">
+    <div class="pic_pt_text_holder">
+      <%=h truncate(video.title.gsub(/<.*?>/,''), :length => 45) %>
+    </div>
 
-    </div><!-- end .articles_div_photo -->
-  </span><!-- end .articles_div_photo_holder -->
+    <div class="pic_pt_button_holder">
+      <%= link_to image_tag("view_picture_button.jpg"), video %>
+    </div>
+  </span>
 
-  <span class="articles_div_gap_1">
-  </span><!-- end .articles_div_gap_1 -->
+  <span class="pic_pt_gap">
+  </span>
 
-  <span class="articles_div_gap_2">
-  </span><!-- end .articles_div_gap_2 -->
-
-  <span class="articles_div_details">
-    <div class="last_title"><%=h truncate(video.title.gsub(/<.*?>/,''), :length => 40) %></div>
-
-    <div class="last_location"><%=h truncate(video.location.gsub(/<.*?>/,''), :length => 40) %></div>
-
-    <div class="last_emphasis"><%=h truncate(video.emphasis.gsub(/<.*?>/,''), :length => 40) %></div>
-
-    <div class="last_description"><%=h truncate(video.information.gsub(/<.*?>/,''), :length => 320) %></div>
-
-    <div class="last_author"><%= video.cameraman %></div>
-
-    <div class="last_date"><%= video.date_of_event %></div>
-
-    <div class="event_manage">
-
-  	  <span><%= link_to 'Show', video %></span>
-
-      <% if admin? %>
-        <span> | </span>
-        <span><%= link_to 'Edit', edit_video_path(video) %></span>
-        <span> | </span>
-        <span><%= link_to 'Destroy', video, :confirm => 'Are you sure?', :method => :delete %></span>
-      <% end %>
-
-    </div><!-- end .event_manage -->
-
-  </span><!-- end .articles_div_details -->
-
-</div><!-- end .articles_div_odd -->
 <% end %>
 
 <div class="pagination">
-  <%= will_paginate @articles %>
-</div><!-- end .pagination -->
+  <%= will_paginate @videos %>
+</div>
 
 
 <% if admin? %>
   <p class="return_link">
-  	<span><%= link_to 'New video', new_video_path %></span>
+	  <%= link_to 'New video', new_video_path %>
   </p>
 <% end %>
 

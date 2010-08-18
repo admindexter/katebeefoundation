@@ -7,7 +7,7 @@ class VideosController < ApplicationController
 
     @videos = Video.all
 
-    @videos = Video.paginate  :per_page => 5, :page => params[:page],
+    @videos = Video.paginate  :per_page => 20, :page => params[:page],
     							            :order => 'created_at DESC'
 
     render :layout => 'site'

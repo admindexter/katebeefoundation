@@ -1065,6 +1065,12 @@ h4 {
 	background: 				        url(../images/contact_us_button_highlight.jpg) no-repeat;
 }
 
+#warning {
+    background:                          white;
+    font-size:                           15px;
+    padding:                             3px 0 3px 0;
+    border-bottom:                       #66a62e thin solid;
+}
 
 
 
@@ -1079,6 +1085,7 @@ h4 {
   width: 400px;
   border: 2px solid #CF0000;
   padding: 0px;
+
   padding-bottom: 12px;
   margin-bottom: 20px;
   background-color: #f0f0f0;
