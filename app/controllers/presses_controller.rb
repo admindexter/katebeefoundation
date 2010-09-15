@@ -3,7 +3,7 @@ class PressesController < ApplicationController
   layout 'admin_edit'
 
   def index
-  	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+  	@last_five_presses = Press.find(:all, :limit => 5, :order => "created_at DESC")
 
     @presses = Press.all
 
@@ -14,7 +14,7 @@ class PressesController < ApplicationController
   end
 
   def show
-  	@last_six_presses = Press.find(:all, :limit => 6, :order => "created_at DESC")
+  	@last_five_presses = Press.find(:all, :limit => 5, :order => "created_at DESC")
 
     @press = Press.find(params[:id])
 
